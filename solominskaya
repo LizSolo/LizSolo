@@ -1,0 +1,9 @@
+Mar 27 14:59:16 dbr-air03 TeamViewer_Service[109] <Error>: HttpRequestImpl::CurlFinished(): curl request failed: Couldn't resolve host name (6), Could not resolve host: router9.teamviewer.com
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Notice>: CKeepAliveClientClient::StartConnect(): Protocol 8 proxy -- IP router5.teamviewer.com
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Notice>: Activating Router carrier
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Critical>: CTcpConnectionBase[24357]::HandleResolve(): Resolve failed, router5.teamviewer.com:5938, Error: asio.netdb:1
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Warning>: CProcessCommandHandlerKeepAlive[24357]::HandleKeepAliveConnect(): Connect to KeepAliveServer failed
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Critical>: KeepAliveSessionOutgoing::ConnectFailureHandler(): KeepAliveConnect to router5.teamviewer.com failed
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Notice>: CKeepAliveClientClient::StartConnect(): Protocol 4 proxy -- IP router6.teamviewer.com
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Notice>: Activating Router carrier
+Mar 27 14:59:17 dbr-air03 TeamViewer_Service[109] <Error>: CurlMultiShared::CurlSocketCallback: unknown socket
